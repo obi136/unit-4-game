@@ -43,7 +43,7 @@ $(".crystal-image").on("click", function() {
 
     if (counter === targetNumber) {
         alert("You win");
-        win++;
+        wins++;
         $("#win").html(wins);
         counter = 0;
         $("#score").html(0);
